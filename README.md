@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Temperature sensor tracker
 
 ## schema
@@ -12,7 +11,3 @@
 +---------------+
 
 ```
-=======
-# tesent
-Temperature sensor tracker
->>>>>>> ee70c4cc2cce42bb0f276701963c6f572608c703
