@@ -1,2 +1,0 @@
-# tesent
-Temperature sensor tracker
