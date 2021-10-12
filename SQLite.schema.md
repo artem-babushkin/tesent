@@ -1,6 +1,10 @@
 ## SQLite schema ##
 
 CREATE TABLE webusers ( id INTEGER PRIMARY KEY AUTOINCREMENT,
-	email TEXT NOT NULL,
-	passhash TEXT NOT NULL
-);
+email TEXT NOT NULL,
+passhash TEXT NOT NULL);
+
+CREATE TABLE sensors (id INTEGER PRIMARY KEY AUTOINCREMENT,
+type INTEGER NOT NULL,
+webuser_id INTEGER NOT NULL,
+FOREIGN KEY(webuser_id) REFERENCES webusers(id));
