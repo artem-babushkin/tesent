@@ -1,8 +1,7 @@
 TEmperatureSENsorTracker
 #### Video Demo:  <URL HERE>
 #### Description:
-I had a task to look on temperature dynamic in my own flat because I've made some changes to improve comfort. I want to be objective with estimation their efficiency.
-My family found usefull to track greenhouse temperature as well.
+I had a problem with low temperature in my flat. I tried to solve it different ways but I couldn't measure their efficiency with actual degrees. 
 So, my project is about to store and visualize temperature data.
 
 TESENT is able to recieve data from custom sensors via http requests, store data for one week and visualize it for a particular user.
