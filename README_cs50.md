@@ -1,7 +1,7 @@
 TEmperatureSENsorTracker
 #### Video Demo:  <URL HERE>
 #### Description:
-I had a problem with low temperature in my flat. I tried to solve it different, ways but I couldn't measure their efficiency with actual degrees. 
+I had a problem with low temperature in my flat. I tried to solve it different ways, but I couldn't measure their efficiency with actual degrees. 
 So, my project is about to store and visualize temperature data.
 
 TESENT is able to receive data from custom sensors via http requests, store data for one week and visualize it for a particular user.
