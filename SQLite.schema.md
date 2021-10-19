@@ -1,12 +1,10 @@
-## SQLite schema ##
-
 CREATE TABLE webusers ( id INTEGER PRIMARY KEY AUTOINCREMENT,
 email TEXT NOT NULL,
-passhash TEXT NOT NULL);
-
-
-CREATE TABLE sensors (id INTEGER PRIMARY KEY AUTOINCREMENT,
-name TEXT NOT NULL,
-type INTEGER NOT NULL,
-webuser_id INTEGER NOT NULL,
-FOREIGN KEY(webuser_id) REFERENCES webusers(id));
+passhash TEXT NOT NULL, api_token TEXT);
+CREATE TABLE sensors ( id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL,
+  type INTEGER NOT NULL,
+  display_order INTEGER DEFAULT 0,
+  color INTEGER DEFAULT "#FF0000",
+  webuser_id INTEGER NOT NULL,
+  FOREIGN KEY(webuser_id) REFERENCES webusers(id));
