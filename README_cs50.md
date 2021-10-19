@@ -6,7 +6,7 @@ So, my project is about to store and visualize temperature data.
 
 TESENT is able to receive data from custom sensors via http requests, store data for one week and visualize it for a particular user.
 
-I decided to create a final project on my own infrastructure, so it can be accessible worldwide:
+I decided to create my final project on my own infrastructure, so it can be accessible worldwide:
 - I've rent a VPC with public IP
 - register free domain name
 - use free dns hosting
@@ -18,7 +18,7 @@ I decided to create a final project on my own infrastructure, so it can be acces
   - SQLite to store users and some data related attributes
   - RRDtool to store data and to create graphs
 
-Most of TESENT written on python because of main render engine - FLASK, and because there are a lot of software with python libraries.
+Most of TESENT written on python because of main render engine - FLASK, and because there are a lot of software with python libraries available.
 
 I've made few pages and API:
 - data view page with few customization abilities
@@ -26,3 +26,4 @@ I've made few pages and API:
 - two text pages with about and how-to information
 - simple http API to receive and store data
 
+You are welcome to join https://www.tesent.ml
